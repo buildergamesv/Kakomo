@@ -312,7 +312,7 @@ TextBox_2.BackgroundTransparency = 0.20000000298023
 TextBox_2.Size = UDim2.new(0, 200, 0, 50)
 TextBox_2.ClearTextOnFocus = false
 TextBox_2.Font = Enum.Font.SourceSans
-TextBox_2.Text = "we dont have one now"
+TextBox_2.Text = "https://discord.gg/Yfy8ckqEhn"
 TextBox_2.TextColor3 = Color3.new(0, 0, 0)
 TextBox_2.TextSize = 14
 
